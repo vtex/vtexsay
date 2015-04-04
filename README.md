@@ -4,7 +4,7 @@
 
 Like [cowsay](http://en.wikipedia.org/wiki/Cowsay), but less cow.
 
-![](screenshot.png)
+![](screenshot2.png)
 
 
 ## Install
