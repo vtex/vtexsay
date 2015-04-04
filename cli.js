@@ -13,13 +13,13 @@ require('taketalk')({
       '  ' + pkg.description,
       '',
       '  Usage',
-      '    yosay <string>',
-      '    yosay <string> --maxLength 8',
-      '    echo <string> | yosay',
+      '    vtexsay <string>',
+      '    vtexsay <string> --maxLength 8',
+      '    echo <string> | vtexsay',
       '',
       '  Example',
-      '    yosay "Sindre is a horse"',
-      yosay('Sindre is a horse')
+      '    vtexsay "Sindre is a horse"',
+      vtexsay('Sindre is a horse')
     ].join('\n'));
   },
   version: pkg.version

@@ -1,6 +1,6 @@
-# yosay [![Build Status](https://travis-ci.org/yeoman/yosay.svg?branch=master)](https://travis-ci.org/yeoman/yosay)
+# vtexsay
 
-> Tell Yeoman what to say
+> Tell VTEX what to say
 
 Like [cowsay](http://en.wikipedia.org/wiki/Cowsay), but less cow.
 
@@ -10,59 +10,59 @@ Like [cowsay](http://en.wikipedia.org/wiki/Cowsay), but less cow.
 ## Install
 
 ```sh
-$ npm install --save yosay
+$ npm install --save vtexsay
 ```
 
 
 ## Usage
 
 ```js
-var yosay = require('yosay');
+var vtexsay = require('vtexsay');
 
-console.log(yosay('Hello, and welcome to my fantastic generator full of whimsy and bubble gum!'));
+console.log(vtexsay('Hello, and welcome to my fantastic generator full of whimsy and bubble gum!'));
 
 /*
-     _-----_
-    |       |    .--------------------------.
-    |--(o)--|    | Hello, and welcome to my |
-   `---------´   | fantastic generator full |
-    ( _´U`_ )    |   of whimsy and bubble   |
-    /___A___\    |           gum!           |
-     |  ~  |     '--------------------------'
-   __'.___.'__
- ´   `  |° ´ Y `
+        ,-²═²,        
+     r"        "%      .--------------------------.
+   r  ╥╥╥    ╦╦╦  ¼    | Hello, and welcome to my |
+  j   ²▒▒▒  ▒▒▒`   N   | fantastic generator full |
+  ╛    ²▒D ▒▒▒`    j   |   of whimsy and bubble   |
+  j     ² ▒▒▒²     ê   |           gum!           |
+   ¼     ²▒▒      a    '--------------------------'
+    "w    `     =^     
+       "²─¬⌂─²²        
  */
 ```
 
-*You can style your text with [chalk](https://github.com/sindresorhus/chalk) before passing it to `yosay`.*
+*You can style your text with [chalk](https://github.com/sindresorhus/chalk) before passing it to `vtexsay`.*
 
 
 ## CLI
 
 ```
-$ npm install --global yosay
+$ npm install --global vtexsay
 ```
 
 ```
-$ yosay --help
+$ vtexsay --help
 
   Usage
-    yosay <string>
-    yosay <string> --maxLength 8
-    echo <string> | yosay
+    vtexsay <string>
+    vtexsay <string> --maxLength 8
+    echo <string> | vtexsay
 
   Example
-    yosay 'Sindre is a horse'
+    vtexsay 'Sindre is a horse'
 
-     _-----_
-    |       |    .--------------------------.
-    |--(o)--|    |     Sindre is a horse    |
-   `---------´   '--------------------------'
-    ( _´U`_ )
-    /___A___\
-     |  ~  |
-   __'.___.'__
- ´   `  |° ´ Y `
+        ,-²═²,        
+     r"        "%      
+   r  ╥╥╥    ╦╦╦  ¼    
+  j   ²▒▒▒  ▒▒▒`   N   .--------------------------.
+  ╛    ²▒D ▒▒▒`    j   |     Sindre is a horse    |
+  j     ² ▒▒▒²     ê   '--------------------------'
+   ¼     ²▒▒      a    
+    "w    `     =^     
+       "²─¬⌂─²²        
 ```
 
 

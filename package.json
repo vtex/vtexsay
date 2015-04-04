@@ -1,7 +1,7 @@
 {
-  "name": "yosay",
+  "name": "vtexsay",
   "version": "1.0.3",
-  "description": "Tell Yeoman what to say",
+  "description": "Tell VTEX what to say",
   "license": "BSD",
   "keywords": [
     "cli",
@@ -12,11 +12,11 @@
     "say",
     "box",
     "message",
-    "ansi"
+    "ansi",
+    "vtex"
   ],
-  "homepage": "http://yeoman.io",
   "author": "The Yeoman Team",
-  "repository": "yeoman/yosay",
+  "repository": "vtex/vtexsay",
   "bin": {
     "yosay": "cli.js"
   },
