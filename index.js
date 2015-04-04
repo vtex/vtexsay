@@ -10,15 +10,15 @@ var ansiRegex = require('ansi-regex')();
 var topOffset = 3;
 var leftOffset = 17;
 var defaultGreeting =
-  '\n     _-----_' +
-  '\n    |       |    ' +
-  '\n    |' + chalk.red('--(o)--') + '|    ' +
-  '\n   `---------´   ' +
-  '\n    ' + chalk.yellow('(') + ' _' + chalk.yellow('´U`') + '_ ' + chalk.yellow(')') + '    ' +
-  '\n    /___A___\\    ' +
-  '\n     ' + chalk.yellow('|  ~  |') + '     ' +
-  '\n   __' + chalk.yellow('\'.___.\'') + '__   ' +
-  '\n ´   ' + chalk.red('`  |') + '° ' + chalk.red('´ Y') + ' ` ';
+  '\n          '+chalk.cyan(',-²═²,         ')+
+  '\n       '+chalk.cyan('r"        "%      ')+
+  '\n     '+chalk.cyan('r')+chalk.red('  ╥╥╥')+chalk.cyan('    ╦╦╦  ¼    ')+
+  '\n    '+chalk.cyan('j')+chalk.red('   ²▒▒▒')+chalk.cyan('  ▒▒▒`   N   ')+
+  '\n    '+chalk.cyan('╛')+chalk.red('    ²▒D')+chalk.cyan(' ▒▒▒`    j   ')+
+  '\n    '+chalk.cyan('j')+chalk.red('     ²')+chalk.cyan(' ▒▒▒²     ê   ')+
+  '\n     '+chalk.cyan('¼     ²▒▒      a    ')+
+  '\n      '+chalk.cyan('"w    `     =^     ')+
+  '\n         '+chalk.cyan('"²─¬⌂─²²        ');
 
 module.exports = function (message, options) {
   message = (message || 'Welcome to Yeoman, ladies and gentlemen!').trim();
